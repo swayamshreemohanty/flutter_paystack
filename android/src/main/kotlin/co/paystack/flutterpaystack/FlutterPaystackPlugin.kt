@@ -5,6 +5,8 @@ import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.embedding.engine.plugins.activity.ActivityAware
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding
 import io.flutter.plugin.common.BinaryMessenger
+import io.flutter.plugins.GeneratedPluginRegistrant
+import co.paystack.flutterpaystack.MethodCallHandlerImpl
 
 
 class FlutterPaystackPlugin : FlutterPlugin, ActivityAware {
